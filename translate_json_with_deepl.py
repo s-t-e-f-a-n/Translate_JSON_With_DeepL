@@ -14,6 +14,8 @@ This script translates JSON files from a source directory using DeepL.
 It counts words before translation and saves the translated files
 in a target directory at the same level.
 
+by Stefan Schmitt, 2025
+
 Usage:
 python translate_json_with_deepl.py my_folder EN
 """
@@ -242,7 +244,7 @@ def translate_json_directory(source_directory, target_lang="EN", context=None):
 
 
 # Set the simulation mode to True for testing
-simulate = False
+simulate = True
 
 if __name__ == "__main__":
     if sys.gettrace():  # Check if running in debugger
