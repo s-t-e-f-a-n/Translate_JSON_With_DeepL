@@ -1,0 +1,29 @@
+{
+  "featureFlags": {
+    "confirmMsg": {
+      "featureFlagDisable": {
+        "postfix": "Sind Sie sicher, dass Sie das Funktionskennzeichen \"{{name}}\" deaktivieren wollen?",
+        "prefix": "Die Deaktivierung eines aktiven Merkmals führt dazu, dass das entsprechende Merkmal nicht mehr angezeigt wird."
+      },
+      "featureFlagEnable": {
+        "postfix": "Sind Sie sicher, dass Sie das Funktionskennzeichen \"{{name}}\" aktivieren wollen?",
+        "prefix": "Durch die Aktivierung dieses Merkmals wird ein verborgenes Merkmal eingeblendet."
+      }
+    },
+    "table": {
+      "header": {
+        "description": "Beschreibung",
+        "key": "Schlüssel",
+        "status": "Status"
+      },
+      "noData": "Keine Merkmalskennzeichen"
+    },
+    "title": "Merkmalskennzeichen verwalten",
+    "toasterMsg": {
+      "featureFlag": {
+        "disabled": "Das Feature-Flag wurde erfolgreich deaktiviert.",
+        "enabled": "Das Feature-Flag wurde erfolgreich aktiviert."
+      }
+    }
+  }
+}

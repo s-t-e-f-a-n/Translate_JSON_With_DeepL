@@ -1,0 +1,29 @@
+{
+  "featureFlags": {
+    "confirmMsg": {
+      "featureFlagDisable": {
+        "postfix": "Are you sure you want to disable the feature flag \"{{name}}\"?",
+        "prefix": "Disabling an active feature flag will stop showing appropriate feature. "
+      },
+      "featureFlagEnable": {
+        "postfix": "Are you sure you want to enable the feature flag \"{{name}}\"?",
+        "prefix": "Enabling this feature flag will start showing a feature that is hidden. "
+      }
+    },
+    "table": {
+      "header": {
+        "description": "Description",
+        "key": "Key",
+        "status": "Status"
+      },
+      "noData": "No Feature Flags"
+    },
+    "title": "Manage Feature Flags",
+    "toasterMsg": {
+      "featureFlag": {
+        "disabled": "Feature flag has been successfully disabled.",
+        "enabled": "Feature flag has been successfully enabled."
+      }
+    }
+  }
+}
